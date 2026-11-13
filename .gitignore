@@ -1,13 +1,3 @@
-# Secrets - never commit
-appsettings.Secrets.json
-
-# .NET
-bin/
-obj/
-.vs/
-*.user
-
-# Node / React
 node_modules/
 build/
 .env
