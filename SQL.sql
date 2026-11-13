@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS my_db;
+USE my_db;
+
+CREATE TABLE Items (
+    Id INT NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(100),
+    IsComplete TINYINT(1),
+    PRIMARY KEY (Id)
+);

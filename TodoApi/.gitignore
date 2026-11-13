@@ -1,0 +1,8 @@
+# Secrets - never commit
+appsettings.Secrets.json
+
+# Build output
+bin/
+obj/
+.vs/
+*.user
